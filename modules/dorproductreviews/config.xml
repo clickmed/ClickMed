@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dorproductreviews</name>
+    <displayName><![CDATA[Dor Product Review Comments]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Allows users to post reviews and rate products on specific criteria.]]></description>
+    <author><![CDATA[Dorado Themes]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

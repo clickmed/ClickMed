@@ -1,0 +1,67 @@
+.header-main-wrapper .header-user-cart{float: right;}
+.header-container #header{background: #f6f7f8;}
+.nav #languages-block-top div.current, .nav #currencies-block-top div.current{padding-top: 8px;}
+#languages-block-top div.current span, #currencies-block-top form div.current strong{
+	color: #fff;font-weight: 400;
+}
+.nav .shop-phone {
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 7px 0;
+}
+.nav .shop-phone strong {
+    color: #fff;
+    font-weight: 400;
+}
+.nav .shop-phone i{font-size: 17px;}
+.nav #languages-block-top div.current::after, .nav #currencies-block-top div.current::after{
+	font-weight: normal;color: #fff;
+}
+.nav #currencies-block-top::before{top: 10px;}
+.header-main-wrapper {
+    padding: 40px 0 35px;
+}
+.hotSearch{display: none;}
+.header-main-wrapper .shopping_cart > a b, .header-main-wrapper .head-current-useInfo .useInfoCurrText{color: #333;font-weight: 400;}
+.line-menu-main {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 3px -2px;
+}
+.line-menu-main .dorVerticalMenu {
+    margin-top: 0;
+    position: relative;
+    width: 24%;
+}
+.line-menu-main .dor-megamenu {
+    clear: none;
+    float: left;
+    margin: 0 auto;
+    padding-left: 0;
+    width: 76%;
+}
+header#header .nav{background: #fff;}
+header#header #dor-verticalmenu .dor-vertical-title {
+    background-color: #eaecee;
+    border-top: 1px solid #eaecee;
+}
+header#header .dor-megamenu .navbar-nav > li > a {
+    color: #1c1d1f;
+    font-weight: 300;
+}
+.fa-icon-menu i, header#header #dor-verticalmenu .dor-vertical-title h4{color: #1c1d1f;text-transform: uppercase;font-weight: 300;}
+header#header #dor_query_top{height: 50px;border-left:none;}
+header#header .pos_search .dropdown-toggle.form-control{height: 50px;}
+header#header .pos_search .dropdown-toggle.form-control::before {
+    border-right: 1px solid #ddd;
+    content: "";
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 1px;
+}
+header#header .row #header_logo{padding:0px;}
+header#header .header-main-wrapper > .container > .row{margin-left: 0px;margin-right: 0px;}

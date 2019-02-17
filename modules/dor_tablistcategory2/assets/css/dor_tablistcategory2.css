@@ -1,0 +1,70 @@
+/*.dor-tab-list-category .loaddingAjax {
+    background: rgba(0, 0, 0, 0) url("../images/preload.gif") no-repeat scroll center center;
+    display: block;
+    height: 64px;
+    left: 47%;
+    position: absolute;
+    text-indent: -9999em;
+    top: 45%;
+    width: 64px;
+}
+.dor-tab-list-category .nav-tabs > li a {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px;
+    text-transform: none;
+    position: relative;
+}
+
+.dor-tab-list-category .dorTabLists{border-bottom: none;}
+.dor-tab-list-category .dorTabLists {text-align: center;margin-bottom: 10px;padding-bottom:20px;}
+.dor-tab-list-category .dorTabLists > li.active a {
+    border: medium none;
+    color: #2688da;
+    font-size: 15px;
+    letter-spacing: 0;
+    padding-top: 0;
+}
+.dor-tab-list-category .dorTabLists > li:hover a::before,
+.dor-tab-list-category .dorTabLists > li.active a::before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom: -5px;
+    width: 100%;
+    border-bottom: 1px #000 solid;
+}
+.dor-tab-list-category .dorTabLists > li:hover a{background: none !important;}
+.dor-tab-list-category .dorTabLists > li{display: inline-block;margin: 0 15px;float: none;}
+.dor-tab-list-category .dor-tab-list-category-wrapper .product-desc,
+.dor-tab-list-category .dor-tab-list-category-wrapper .availability{display: none;}
+.dor-tab-list-category .dor-tab-list-category-wrapper .right-block {
+    text-align: center;
+}
+.dor-tab-list-category .dor-tab-list-category-wrapper .product-container.item.item-grid {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 40px;
+}
+.dor-tab-list-category .load-more-tab {
+    clear: both;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+}
+.dor-tab-list-category .loaddingAjaxTab {
+    background: rgba(0, 0, 0, 0) url("../images/preload.gif") no-repeat scroll center center;
+    display: block;
+    height: 64px;
+    left: 47%;
+    position: absolute;
+    text-indent: -9999em;
+    top: 25%;
+    width: 64px;
+}*/

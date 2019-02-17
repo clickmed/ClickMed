@@ -1,0 +1,141 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	//display: none;
+	display: block;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	//display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+/*.grabbing { 
+    cursor:url(../img/front_img/grabbing.png) 8 8, move;
+}*/
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.rtl .owl-carousel .owl-item {
+  float: right;
+}
+.dor-countdown-item ul li{
+	display: inline-block;
+	border:3px #606468 solid;
+	font-size: 22px;
+	font-family: "Oswald",sans-serif;
+	text-transform: uppercase;
+	width: 85px;
+	padding: 20px 0px;
+	color: #000;
+	margin-right: 20px;
+	text-align: center;
+}
+.dor-countdown-item ul li .countdown_num{
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.dor-countdown-item ul li .countdown_num span{border-bottom: 1px #FFF solid;padding:8px 0px;}
+.dataCountdow-slider a.img.product_img_link{
+	display: inline-block;
+	border:3px #575a5c solid;
+}
+.dataCountdow-slider .img-responsive {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    margin: 15px -15px -15px 15px;
+    padding: 0 !important;
+    width: 100%;
+}
+.countdown-button {
+    display: inline-block;
+}
+.countdown-button > a, a.countdown-button{
+	color: #FFF;
+	font-weight: 400;
+	text-transform: uppercase;
+	border:1px #575a5c solid;
+	border-radius: 25px;
+	padding:10px 25px;
+}
+.dataCountdow-slider .price-percent-reduction {
+    font-size: 18px;
+}
+
+.owl-pagination .owl-page {
+    display: inline-block;
+    padding: 0 5px;
+}
+.owl-page > span {
+    border-radius: 100%;
+    display: block;
+    height: 12px;
+    width: 12px;
+    background:#FFF;
+}
+.owl-page.active > span{background: none;border: 1px solid #fff;}
+.owl-pagination {
+    padding-top: 20px;
+    text-align: center;
+}
+.dataCountdow-slider .product-meta{padding-bottom: 5px;}
+.dataCountdow-slider .owl-item.active{
+	-webkit-animation:none;-moz-animation:none;-o-animation:none;animation:none
+}
+.product-action-deals > .add-to-cart.cart.pull-left {
+    display: none;
+}

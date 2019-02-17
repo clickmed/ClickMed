@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: normal;
+    height: 100%;
+    font-size: 15px;
+    line-height: 24px;   
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+ul.product_list.list > li .button.ajax_add_to_cart_button span,
+.footer-container #footer h4, #columns .section-title h2, #old_price, .our_price_display .price,
+#new_comment_form h2, .page-subheading, .history_price .price, .cart_block .cart-buttons,
+.cart_block .cart-buttons a span, #pagenotfound #page > div.columns-container, #pagenotfound #page > div.columns-container p,
+.nav-tabs > li a, .sub-title p, .dor-megamenu .widget-content .widget-heading, .dor-megamenu .widget-content .widget-heading a, .dor-megamenu .widget-content ul li a,
+.cart_voucher h4, .dor-megamenu ul.navbar-nav li a, .dor-slider-desc{
+    font-family: "Roboto",sans-serif;
+}

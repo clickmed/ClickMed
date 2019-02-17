@@ -1,0 +1,13 @@
+.icon-AdminDorMenu{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+}
+#maintab-AdminDorMenu a.title span{font-weight: 700;}
+.icon-AdminDorMenu:before {
+  content: "\f1b2";
+}

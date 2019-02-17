@@ -1,0 +1,71 @@
+.media-content .fancybox-media > img {
+    border-radius: 50%;
+    display: inline-block !important;
+    float: none;
+    height: 85px;
+    max-width: 100%;
+    width: 85px !important;
+}
+.testimonials-slide li {
+    text-align: center;
+}
+.testimonial-rate .star {
+    display: inline-block !important;
+    float: none;
+}
+
+.testimonials-slide .owl-nav > div {
+    position: absolute;
+    top: calc(50% - 40px);
+    background: none !important;
+}
+.testimonials-slide .owl-nav{display: none;}
+.testimonials-slide:hover .owl-nav{display: block;}
+.testimonials-slide .owl-nav > div.owl-next {
+	right: 0px;
+}
+.testimonials-slide .owl-nav > div i{font-size: 50px;color: #696969;}
+.test-namepost {
+    color: #333;
+    font-weight: 700;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.testimonial-rate {
+    padding: 10px 0;
+}
+.test-companypost {
+    color: #696969;
+    font-size: 13px;
+    padding-left: 15px;
+}
+.DorTestimonial {
+    background: #f8f7f7 none repeat scroll 0 0;
+    padding: 90px 0;
+    position: relative;
+}
+.testimonials-title {
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+.des_testimonial {
+    color: #696969;
+    font-size: 18px;
+    font-style: italic;
+}
+.DorTestimonial::before {
+    background: #8eb35a none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 84px;
+    left: 50%;
+    position: absolute;
+    top: -42px;
+    width: 1px;
+    z-index: 999;
+}

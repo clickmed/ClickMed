@@ -1,0 +1,188 @@
+#product_comparison .hook-reviews .comments_note .star_content {
+    display: block;text-align: center;
+}
+#product_comparison .comments_note::after{display: none;}
+#product_comparison .hook-reviews .comments_note .star_content .star{float: none;display: inline-block;}
+#product_comparison .h5-name-product {
+    margin-top: 30px;
+    text-align: center;
+}
+#product_comparison .add-to-cart{
+	border:1px #1696ef solid;
+}
+#product_comparison .add-to-cart i,
+#product_comparison .add-to-cart span{
+	color: #1696ef;text-transform: uppercase;
+}
+.comparison-addcart > form {
+    text-align: center;
+}
+#product_comparison .prices-container {
+    padding: 10px 0;
+}
+#product_comparison .discount-percentage {
+    background: #ff8800 none repeat scroll 0 0;
+    border: 1px solid #ff8800;
+    border-radius: 3px;
+    color: #fff;
+}
+#product_comparison .regular-price{padding: 0px !important;}
+#product_comparison .ajax_block_product.comparison_infos {
+    padding-bottom: 25px;
+    padding-top: 15px;
+    position: relative;
+}
+#product_comparison .cmp_remove i {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 4px;
+}
+#product_comparison .product-image-block {
+    position: relative;text-align: center;
+}
+.td-compare-header {
+    background: #b0b0b0 none repeat scroll 0 0;
+    color: #333;
+}
+
+#product_comparison .cmp_remove::before {
+    border-color: transparent transparent #2688da;
+    border-style: solid;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+    z-index: -1;
+}
+#product_comparison .cmp_remove::before {
+    border-width: 0 0 40px 40px;
+}
+#product_comparison .cmp_remove {
+    bottom: 0;
+    color: white;
+    display: block;
+    font-weight: 900;
+    line-height: 32px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.compare_footer_link .button.lnk_view.btn.btn-default > span {
+    text-transform: uppercase;
+}
+.compare_footer_link .button.lnk_view.btn.btn-default{
+	padding: 10px 20px;background-color: #2688da;border-color: #2688da;color: #fff;
+}
+#product_comparison .product_desc {
+    text-align: center;
+}
+#product_comparison .product_image {
+    display: inline-block;
+    text-align: center;
+}
+
+.list-compare-left ul li {
+    color: #878787;
+    display: block;
+    padding: 10px 0;
+    position: relative;
+}
+.list-compare-left ul li::after{
+	position: absolute;
+	content: "";
+	background-color: #ddd;
+	height: 1px;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+}
+.list-compare-left ul li a{
+	color: #878787;
+}
+.compare_remove{position: absolute;top: 9px;right: 0px;cursor: pointer;}
+.compare_remove i {
+    font-size: 15px;
+}
+.dorCompareLeftSidebar {
+    padding: 25px 0 20px;
+}
+.actions-footer-sidebar > a {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 5px 12px;
+}
+.actions-footer-sidebar > a.dor-sidebar-compare {
+    background: #2688da none repeat scroll 0 0;
+    border-color: #2688da;
+    color: #fff;
+}
+.actions-footer-sidebar > a.dor-sidebar-compare-clear{color: #333;}
+.actions-footer-sidebar {
+    padding-top: 15px;
+}
+.list-compare-left .empty {
+    text-align: center;
+}
+.compare-hide{display: none !important;}
+
+
+
+
+
+.infoCompare {
+    margin: 0;
+    position: fixed;
+    width: 360px;
+    z-index: 9999999;
+    right: 15px;
+    top: 15px;
+}
+.infoCompareInner {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 18px;
+}
+.infoCompareInner > h3 {
+    font-size: 21px;
+    margin-top: 0;
+}
+.noty_text_body {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+.noty_text_body .thumbnail {
+    display: inline-block;
+    flex: 0 0 auto;
+    height: 72px;
+    margin-bottom: 0;
+    margin-right: 24px;
+    width: auto;
+}
+.noty_text_body > p {
+    flex: 1 1 0;
+    overflow: hidden;
+}
+.noty_text_body .thumbnail img{height: 100%;width: auto;}
+.close-popcompare {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+.close-popcompare i{color: #b0b0b0;}
+.infoCompareInner > h3 > i {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    color: #1696ef;
+}
+.noty_text_body strong {
+    color: #1696ef;
+}

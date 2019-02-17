@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic);
+@font-face {
+    font-family: 'KrinkesDecorPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesDecorPERSONAL.ttf);
+}
+@font-face {
+    font-family: 'KrinkesRegularPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesRegularPERSONAL.ttf);
+}
+body {font-family: 'Open Sans', sans-serif !important;}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Open Sans',Arial;
+}
+body .blockDorado2 ul.product_list .product-name,
+.extbold-font-4, .sec-title, .title-2{
+	font-family: 'Open Sans',Arial;
+}

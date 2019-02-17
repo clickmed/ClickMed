@@ -1,0 +1,29 @@
+
+.loaddingAjaxTab {
+    background: rgba(0, 0, 0, 0) url("../images/preload.gif") no-repeat scroll center center;
+    display: block;
+    height: 64px;
+    left: 33%;
+    position: absolute;
+    text-indent: -9999em;
+    top: 25%;
+    width: 64px;
+}
+.nav-tabs > li a{outline: none;}
+.ajax_block_product_sidebar .action-container-sidebar {
+    display: none;
+}
+.ajax_block_product_sidebar {
+    display: block;
+    overflow: hidden;
+}
+.ajax_block_product_sidebar .left-block {
+    padding: 0 0 0 15px;
+}
+.ajax_block_product_sidebar .color-list-container{display: none;}
+.ajax_block_product_sidebar .right-block > h5{margin-top: 0px;}
+.product-image-container-sidebar {
+    border: 0px solid #ddd !important;
+    
+}
+.product-image-container-sidebar > a{display: block;border:1px #ddd solid;padding-bottom: 1px;padding-right: 1px;}

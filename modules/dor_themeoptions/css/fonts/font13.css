@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+@font-face {
+    font-family: 'KrinkesDecorPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesDecorPERSONAL.ttf);
+}
+@font-face {
+    font-family: 'KrinkesRegularPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesRegularPERSONAL.ttf);
+}
+body {font-family: 'Arimo', sans-serif !important;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arimo', serif;
+}

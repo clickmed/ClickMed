@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dor_categories</name>
+    <displayName><![CDATA[Dor List Categories]]></displayName>
+    <version><![CDATA[2.0]]></version>
+    <description><![CDATA[Dor Show List Categories]]></description>
+    <author><![CDATA[Dorado Themes]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

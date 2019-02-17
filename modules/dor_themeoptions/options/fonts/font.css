@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+@font-face {
+    font-family: 'KrinkesDecorPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesDecorPERSONAL.ttf);
+}
+@font-face {
+    font-family: 'KrinkesRegularPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesRegularPERSONAL.ttf);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #ffffff;
+    color: #979797; 
+    height: 100%;
+    font-size: 15px;
+    line-height: 24px;   
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+ul.product_list.list > li .button.ajax_add_to_cart_button span {
+    font-family: "Roboto",sans-serif;
+}

@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,400italic,300italic,300);
+@font-face {
+    font-family: 'KrinkesDecorPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesDecorPERSONAL.ttf);
+}
+@font-face {
+    font-family: 'KrinkesRegularPERSONAL';
+    src: url(../fonts/Krinkes/KrinkesRegularPERSONAL.ttf);
+}
+body {font-family: 'Ubuntu', serif !important;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', serif;
+}

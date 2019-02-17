@@ -1,0 +1,60 @@
+#lab-smart-user, #loginFormSmart, #registerFormSmart, #smartForgotPass{display: none}
+#loginFormSmart .button.b-close, #registerFormSmart .button.b-close, #smartForgotPass .button.b-close {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    position: absolute;
+    right: 15px;top: 8px;cursor: pointer;
+}
+#registerFormSmart input[type="text"],
+#registerFormSmart input[type="email"],
+#registerFormSmart input[type="password"],
+#loginFormSmart input[type="text"],
+#loginFormSmart input[type="email"],
+#loginFormSmart input[type="password"]{
+	max-width: 100% !important;
+}
+#registerFormSmart .form-control-comment{display: none;}
+#registerFormSmart, #loginFormSmart, #smartForgotPass {
+    background: #fff none repeat scroll 0 0;
+    padding: 35px 0;
+    width: 500px;
+}
+#center_column_smart {
+    padding: 0 20px;
+}
+#center_column_smart h1 {
+    font-size: 20px;
+    margin-top: 0;
+}
+#loginFormSmart .input-group-btn, #registerFormSmart .input-group-btn {
+    display: none;
+}
+#loginFormSmart #SubmitLogin, #loginFormSmart #SubmitLogin span, #loginFormSmart #SubmitLogin i{
+	font-size: 15px;
+}
+#form_forgotpassword button, #form_forgotpassword button span, #form_forgotpassword button i{
+	font-size: 15px;
+}
+#registerFormSmart #submitAccount, #registerFormSmart #submitAccount span, #registerFormSmart #submitAccount i{
+	font-size: 15px;
+}
+#loginFormSmart #SubmitLogin,
+#registerFormSmart #submitAccount, #form_forgotpassword button{border-radius: 5px;background: none;text-shadow:none;border:none;}
+#loginFormSmart #SubmitLogin span,
+#registerFormSmart #submitAccount span,
+#form_forgotpassword button span{
+	padding: 3px 10px 3px 11px;
+}
+#loginFormSmart #SubmitLogin span,
+#registerFormSmart #submitAccount span,
+#form_forgotpassword button span{
+	background: none;border:1px #DDD solid;color: #333;border-radius: 30px;padding: 5px 20px;
+}
+#loginFormSmart .button.button-medium span i.left{vertical-align: 2px;}
+.reActLogReg{display: inline-block;}
+.header_user_info.smart-user-act {
+    float: right;
+    padding-top: 10px;
+}
+.header_user_info.smart-user-act a{color: #0000ff;}
+.hight-light{border:1px #FF0000 solid; box-shadow: 0px 0px 5px -1px #FF0000;}

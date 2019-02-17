@@ -1,0 +1,38 @@
+.dorFilterInner .value-range {
+    margin-top: 15px;float: left;
+}
+.dorFilterInner input[name="submit_range"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    color: #333;
+    font-size: 14px;
+    padding: 5px 25px 3px;
+    text-transform: uppercase;
+}
+.dorFilterInner .ui-widget-content{
+	border: 1px solid #f4f4f4;
+	background: #fff;
+}
+.dorFilterInner .ui-slider-horizontal {
+    height: 8px;
+    margin: 25px 0 15px;
+}
+.dorFilterInner .ui-slider-handle.ui-state-default.ui-corner-all {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.amount-price-show {
+    float: right;margin-top: 21px;
+}
+.amount-price-show .txt-price {
+    padding-right: 5px;
+}
+#dorFilterPriceRange {
+    margin-bottom: 50px;
+}
+#search_filters > h4.text-uppercase.h6, .category-top-menu .text-uppercase.h6{
+    font-family: "Playfair Display",serif;
+}

@@ -1,0 +1,156 @@
+/* block top search */
+#pos_search_top{
+	position:absolute;
+	right: 26%;
+    top: 34px;
+}
+#pos_search_top p {padding:0;}
+#pos_search_top #pos_query_top {
+    margin-left: -4px;
+    width: 288px;
+}
+.filterDataSearch a {
+    display: block;
+    overflow: hidden;
+}
+#pos_search_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(img/bg_search_submit.png) repeat-x 0 0 #101010;
+	float: left;
+	height: 25px;
+}
+.pos_search .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.pos_search .fa.fa-th {
+    display: none;
+}
+form#searchbox{padding-top:5px}
+form#searchbox label{color:#333;margin-bottom:1px}
+form#searchbox input#pos_query_block{
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius:3px !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+    height: 18px;
+	margin-top:10px;
+}
+form#searchbox input#search_button{padding: 1px 4px;}
+#dor_search_top form#searchbox{padding-top: 65px;}
+.pos_search{
+ display: inline;
+ padding: 0px;
+}
+.dor_search {
+    padding: 0 5px;position: relative;
+}
+.dor_search button[name="submit_search"]{
+    position: absolute;
+    top: 0px;right: 5px;padding:3px;
+}
+#header .wrap_seach{
+    float: right;
+    right: 1%;
+    top: 50px;
+    float: right;
+}
+.ac_loading {
+    background: white url('img/ajax-loader.gif') right center no-repeat;
+}
+.ac_results {
+    text-align: left;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+}
+.filterDataSearch {
+    background: #fff none repeat scroll 0 0;
+    max-height: 420px;
+    min-width: 235px;
+    overflow-y: auto;
+    padding: 10px 5px;
+    position: absolute;
+    width: auto;
+    z-index: 1002;
+}
+.filterDataSearch li {
+    border-bottom: 1px solid #ddd;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    padding: 5px 0;
+    position: relative;
+}
+.filterDataSearch img {
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+    max-width: 100%;
+    padding: 5px;
+    width: 55px;
+}
+.filterDataSearch span {
+    display: block;
+    line-height: 25px;
+}
+.filterDataSearch li:last-child{border-bottom: 0px;}
+.filterDataSearch span.search-name {
+    color: #333;
+    font-weight: 600;
+}
+.filterDataSearch span.search-price{color: #FF0000;font-size: 15px;}
+.filterDataSearch li:hover{background: #DDD;}
+
+ul.ajaxSearchData {
+    position: absolute;
+    width: 400px;
+    background: #fff;
+    padding: 15px 5px 15px 15px;
+    z-index: 99;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.dorSearchLeft {
+    float: left;
+    width: 20%;
+}
+.dorSearchRight {
+    float: left;
+    width: 80%;
+    padding-left: 15px;
+    text-align: left;
+}
+.dorSearchLeft img{max-width: 100%;}
+.dorSearchRight > a{color: #333;}
+.ajaxSearchData li {
+    padding: 5px 0px;
+    border-bottom: 1px #ddd solid;
+}
+.ajaxSearchData li:last-child{border:none;}
+.ajaxSearchData{
+    max-height: 450px;
+}
+.ajaxSearchData .mCSB_inside > .mCSB_container{margin-right: 15px;}
+.dorSearchRight .regular_price {
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: line-through;
+    color: #ddd;
+}
+.search-load-process {
+    background: rgba(0, 0, 0, 0) url("img/ajax-loader.gif") no-repeat scroll center center;
+    height: 16px;
+    position: absolute;
+    right: 95px;
+    top: 12px;
+    width: 16px;
+    display: none;
+}

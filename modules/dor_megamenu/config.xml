@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dor_megamenu</name>
+    <displayName><![CDATA[Dor Megamenu]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Manager and display megamenu use bootstrap framework]]></description>
+    <author><![CDATA[Dorado Themes]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,59 @@
+.dor-jspop-wishlist {
+    overflow: visible;
+    position: fixed;
+    transform: translate3d(0px, 0px, 0px);
+    bottom: 20px;
+    right: 20px;
+    z-index: 1982;
+    padding:15px;
+}
+.dor-jspop-wishlist{
+    background: rgba(91, 189, 114, 0.95) none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+.dor-jspop-wishlist{
+    background: rgba(91, 189, 114, 0.95) none repeat scroll 0 0;
+}
+.dor-jspop-wishlist-close::after {
+    content: "+";
+    font-size: 15px;
+    position: absolute;
+    right: 3px;
+    top: -3px;
+    transform: rotate(45deg);
+}
+.dor-jspop-wishlist-close {
+    background: #333 none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    color: #fff;
+}
+.dor-jspop-wishlist-close:hover{
+	background: #fff;color: #333;
+}
+.remove-wishlist-item {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    z-index: 99;
+}
+.wishlist-txt{display: none;}
+.addToDorWishlist {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 99;
+    opacity: 0.5;
+}
+.remove-wishlist-txt{display: none;}
+.js-product-miniature:hover .remove-wishlist-item{display: block;}
+.remove-wishlist-item i{color: #ff0000;}
+.addToDorWishlist i{color: #8eb35a;}

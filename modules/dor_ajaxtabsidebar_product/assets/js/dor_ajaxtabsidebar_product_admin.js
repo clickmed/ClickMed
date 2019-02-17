@@ -1,0 +1,3 @@
+var SIDEBAR_PROCATEADM = {
+	
+}

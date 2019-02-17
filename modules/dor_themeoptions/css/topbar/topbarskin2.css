@@ -1,0 +1,7 @@
+header#header .nav#topbarDorado2 {
+    background: #3a83d4 none repeat scroll 0 0;
+}
+#contact-link{display: none;}
+.shop-phone{float: right;}
+#currencies-block-top, #languages-block-top{float: left;}
+.header-container #header{padding-top: 0px;}

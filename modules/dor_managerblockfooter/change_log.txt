@@ -1,0 +1,8 @@
+upgrade posstaticfooter from 1.0.0 to 1.0.1
+	-fix language problem
+	-file update 
+	+	/modules/posstaticfooter/posstaticfooter.php
+	+	/modules/posstaticfooter/controller/admin/AdminPosStaticFooterController.php
+	+	/modules/posstaticfooter/models/Staticfooter.php
+	+	/modules/posstaticfooter/sql/...
+	+       /modules/posstaticfooter/js/staticblock.js
