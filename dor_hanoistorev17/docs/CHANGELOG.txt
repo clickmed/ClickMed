@@ -1,0 +1,138 @@
+2007-2016 PrestaShop
+
+NOTICE OF LICENSE
+
+This source file is subject to the Open Software License (OSL 3.0)
+that is bundled with this package in the file LICENSE.txt.
+It is also available through the world-wide-web at this URL:
+http://opensource.org/licenses/osl-3.0.php
+If you did not receive a copy of the license and are unable to
+obtain it through the world-wide-web, please send an email
+to license@prestashop.com so we can send you a copy immediately.
+
+DISCLAIMER
+
+Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+versions in the future. If you wish to customize PrestaShop for your
+needs please refer to http://www.prestashop.com for more information.
+
+@author    PrestaShop SA <contact@prestashop.com>
+@copyright 2007-2016 PrestaShop SA
+@license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+International Registered Trademark & Property of PrestaShop SA
+
+Release Notes for PrestaShop 1.7
+--------------------------------
+####################################
+#   v1.7.0.4 - (2017-01-05)
+####################################
+
+####################################
+#   v1.7.0.3 - (2016-12-16)
+####################################
+- Back Office:
+   - Bug fix:
+     - #7169: Add Request to hook parameters
+     - #7151: Allow installed modules translation from translation page
+     - #7024: Fixed product permissions
+     - #7153: Update docs & compile
+     - #7143: Fixed image of module on Payment page
+     - #7091: Fix some of the functions on the product page (JS)
+     - #7090: Fix error when saving traslations (1.7.0.0)
+     - #7028: Removed module card on uninstall
+         - #7215: TinyMCE media plugin shouldn't be activated twice
+
+ - Front Office:
+   - Bug fix:
+     - #7130: Fix nav header menu icon on classic
+     - #7046: Fix classic css override of featuredproduct
+     - #7160: Fix sort by text display
+     - #7131: Fix bootstrap version
+     - #7077: Fix "too much recursion" error on ajax search
+     - #7078: Fix select filter & filter criteria by ajax
+
+ - Core:
+   - Improvement:
+     - #6984: Use the right languages name
+     - #7146: Updated README
+   - Bug fix:
+     - #7224: Removed finfo use for theme upload
+     - #7205: Fix warnings in translate.php
+     - #7200: Fix module install and blank screen after PS install
+     - #7197: Check in Symfony catalog for translations for native modules
+     - #7191: Shutdown addons client on error
+     - #7190: Escape translated strings to prevent XSS
+     - #7187: Fix already defines smarty function
+     - #7184: Fix inactive scope for request in HookManager
+     - #7173: Revert "BO: fixed other XSS issues on translation module page"
+     - #7165: Licences & assets
+     - #7156: Fix SmartyLazyLoader for multiple smarty instances
+     - #7087: Protect translations display against XSS injections
+     - #7129: Fix timeout option for guzzle config
+     - #7144: Use default catalog as a fallback
+     - #7119: Use PhpParser to check parse errors in modules
+     - #7134: Fix mails with invoices
+     - #7080: Add unit price to order confirmation mail (1.7.0.0)
+     - #7096: Use english email template as fallback in getEmailTemplateContent
+
+
+####################################
+#   v1.7.0.2 - (2016-11-23)
+####################################
+- Back Office:
+  - Bug fix:
+  - #7070: Fixed bulk actions affecting single products
+  - #7058: Disable FK checks during DB export
+  - #7063: Fix related product removal
+  - #7008: Display preview button on 13 inches
+  - #6958: Fix email preview in translation page
+
+- Front Office:
+  - Bug fix:
+  - #7027: Filtered embedded product properties
+  - #7043: Add download link for virtual products
+
+- Core:
+  - Improvement:
+  - #7022: Allowed to add remote assets
+  - Bug fix:
+  - #7038: Send email in English if current language don't have email template
+  - #7026: Protect translations display against XSS injections
+  - #7033: Use the locale to fallback on the good one in CLDR Repository
+  - #6986: Fix sprintf condition
+  - #7054: Fix Cookie standalone mode
+
+
+####################################
+#   v1.7.0.1 - (2016-11-16)
+####################################
+- Back Office:
+  - Bug fix:
+  - #6975: Fix updating positions when sorting products
+  - #6977: Fixed security issue on SpecificPrice class
+  - #6952: Fix recommended modules modal window
+  - #6962: Fixed translation choice in BO
+  - #6951: Fixed notice on module translations
+  - #6940: Fix email translations
+  - #6937: Return empty array on API error for customer data
+
+- Front Office:
+  - Bug fix:
+  - #6991: Fix changing combination when catalog mode is enabled
+  - #6979: Fix undefined event in core.js
+
+- Core:
+  - Improvement:
+  - #6982: Improved performances on Windows/NFS filesytem
+  - Bug fix:
+  - #7012: Load autoload earlier
+  - #6971: Fixed on included files for autoupgrade
+  - #6989: Fix fatal if payment module return a non array result
+  - #6973: Created temporary file in cache directory
+  - #6969: Prevent password reset on user check by email
+
+
+####################################
+#   v1.7.0.0 - (2016-11-03)
+####################################
+  New Release!

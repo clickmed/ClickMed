@@ -1,0 +1,267 @@
+@CHARSET "UTF-8";
+
+body#module-amzpayments-amzpayments #center_column {width: 100%; margin-bottom: 15px;}
+
+.amzButtonProductdetail {
+	cursor: pointer;
+	margin-top: 5px; margin-bottom: 5px;
+}
+
+#payWithAmazonCartDiv {
+	clear: both;
+	padding-top: 5px;
+	margin-top: 5px;
+	display: block;
+	text-align: right;	
+}
+
+.amz_widgets {
+	float: left;
+	width: 450px;	
+}
+.amz_cart_widgets {
+	float: right;
+	width: 450px;
+}
+
+#carrier_area h2 {
+	display:none;
+}
+
+.amz_cart_widgets textarea#message {
+	width: 420px;
+	height: 100px;
+}
+.amz_cart_widgets  #gift_div #gift_message {
+	width: 400px;
+	height: 100px;
+}
+.amz_cart_widgets_bs #gift_div #gift_message,
+.amz_cart_widgets_bs textarea#message {
+	height: 100px;
+}
+.amz_cart_widgets_summary_bs h1#cart_title span.heading-counter,
+.amz_cart_widgets_bs #carrier_area h1.step-num span {
+	display: none;	
+}
+
+body#module-amzpayments-amzpayments .delivery_options_address h3 {
+	background: url("../../../themes/default/img/bg_table_th.png") repeat-x scroll 0 -15px #999999;
+	padding: 10px;
+	color: #fff;
+	text-shadow: 0 1px 0 #666666;
+}
+
+body#module-amzpayments-amzpayments .order_carrier_content {
+	margin-bottom: 15px;
+}
+
+body#module-amzpayments-amzpayments .delivery_option {
+	clear: both;	
+	padding: 3px;
+}
+body#module-amzpayments-amzpayments .delivery_option input[type=radio],
+body#module-amzpayments-amzpayments .delivery_option label {
+	display: inline-block;
+	vertical-align: middle;
+}
+body#module-amzpayments-amzpayments .delivery_option label {
+	margin-left: 20px;
+}
+label[for=connect_amz_account] {
+	text-align: left;
+}
+
+#amzOverlay {
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(99,99,99,0.5);
+	z-index: 200;
+	text-align: center;
+	display: none;
+	vertical-align: middle;
+}
+#amzOverlay img {
+	position: relative;
+	top: 50%;
+}
+
+#module-amzpayments-amzpayments td.cart_delete.text-center div,
+#module-amzpayments-amzpayments td.cart_quantity.text-center,
+#module-amzpayments-amzpayments th.cart_quantity.item.text-center,
+#module-amzpayments-amzpayments #order_step {
+	display: none;
+}
+#amz_carriers .breadcrumb,
+#amz_cart_widgets_summary .order_delivery {
+	display: none;
+}
+
+input.disabled {
+	background: #efefef;
+	border-color: #ccc;
+	opacity: .5;
+}
+
+.amzSetAddressWr{
+    margin:20px 0;
+    text-align:center;
+    height:250px;
+    width: 100%;
+}
+
+#amazonLogin {
+	float: right;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+#amazonLoginFormButton {
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#payWithAmazonCartDiv {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#payWithAmazonDiv {
+	float: right;
+	margin-bottom: 4px;
+}
+#payWithAmazonMainDiv:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+p.payment_module a.amzPayments {
+	cursor: pointer;
+}
+p.payment_module a.amzPayments::after {
+    color: #777;
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    margin-top: -11px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 14px;
+}
+#module-amzpayments-amzpayments section#content {
+    background: white none repeat scroll 0 0;
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 1rem;		
+}
+#module-amzpayments-connectaccounts section#content {
+    background: white none repeat scroll 0 0;
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 1rem;	
+}
+
+#amz_cart_widgets_summary #order-items {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;   	
+}
+#module-amzpayments-amzpayments .modal-content {
+	padding: 10px;
+}
+
+#addressBookWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	min-height: 228px; 
+	max-height: 400px;}
+#readOnlyAddressBookWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	height: 185px;
+}
+#walletWidgetDiv {
+	min-width: 200px; 
+	max-width:800px; 
+	min-height: 228px;
+ 	max-height: 400px;
+ }
+#readOnlyWalletWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	height: 185px;
+}
+#walletWidgetDivBs,
+#addressBookWidgetDivBs {
+	height: 290px;
+	min-height: 290px;
+	max-height: 400px;
+}
+
+#amz_carriers {
+	background: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#amz_coupon {
+	margin-top: 20px;
+}
+#amz_coupon p {
+	margin-bottom: 0;
+}
+#module-amzpayments-amzpayments .promo-list,
+#module-amzpayments-amzpayments .delivery-options-list {
+	padding: 15px;
+	border: 1px solid #e5e5e5;	
+}
+#module-amzpayments-amzpayments .delivery-options-list p.alert-danger {
+	margin-bottom: 0;
+}
+
+
+/* Smartphone and small window */
+#addressBookWidgetDiv {
+	width: 100%; 
+	height: 228px;
+}
+#walletWidgetDiv {
+	width: 100%;
+	height: 228px;
+}
+
+
+@media (max-width: 470px) {
+	.amz_cart_widgets {
+		width: 100%;
+	}
+}
+
+#jsLoginAuthPage {
+	margin-top: 20px;
+	display: block;
+}
+
+#HOOK_ADVANCED_PAYMENT #payWithAmazonListDiv {
+	width:100%;
+	padding: 47px;
+	padding-left: 95px;
+	background: #fff;
+	border: 1px solid #d6d4d4;
+	display: inline-block;
+	border-radius: 4px; 
+}
+	
+@media only screen and (min-width: 981px) {
+	#HOOK_ADVANCED_PAYMENT #payWithAmazonListDiv {
+		background: #fff;
+		width: 48.8%;
+		padding-left: 190px;
+	} 
+}

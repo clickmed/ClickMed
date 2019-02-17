@@ -1,0 +1,199 @@
+/**************************************************************************
+          Contact Page Styles
+**************************************************************************/
+.contact-title {
+  margin: -5px 0 0px 0;
+  line-height: 23px; }
+  .contact-title i {
+    font-size: 23px;
+    color: #c0c0c0;
+    padding: 0 8px 0 0; }
+
+.contact-form-box {
+  padding: 23px 0 0 0;
+  margin: 0 0 30px 0;
+  background: url(../img/contact-form.png) repeat-x #fff;
+  -moz-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px; }
+  .contact-form-box fieldset {
+    padding: 0 19px 21px 19px;
+    background: url(../img/form-contact-shadow.png) center bottom no-repeat;
+    background-size: contain; }
+  .contact-form-box label {
+    margin: 0 0 6px 0; }
+  .contact-form-box .page-subheading {
+    padding-left: 0px;
+    border: none;
+    margin-bottom: 0; }
+  .contact-form-box .col-md-3 {
+    padding-left: 0; }
+    @media (max-width: 991px) {
+      .contact-form-box .col-md-3 {
+        padding-right: 0; } }
+  .contact-form-box .col-md-9 {
+    padding-right: 0; }
+    @media (max-width: 991px) {
+      .contact-form-box .col-md-9 {
+        padding-left: 0; } }
+  .contact-form-box #desc_contact0 {
+    display: none; }
+  .contact-form-box .form-group {
+    margin-bottom: 7px; }
+  .contact-form-box textarea {
+    height: 257px; }
+  .contact-form-box .submit {
+    margin-top: 13px; }
+  .contact-form-box select.form-control {
+    max-width: 270px;
+    width: 100%; }
+  .contact-form-box input.form-control {
+    max-width: 270px; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .contact-form-box div.uploader span.filename {
+      width: 114px; } }
+
+/*# sourceMappingURL=contact-form.css.map */
+
+
+/************Dorado Contact Form Style 1**************/
+#contact #content{padding-left: 0px;padding-right: 0px;}
+@media (min-width: 768px){
+  #contact #content-wrapper{padding-left: 0px;padding-right: 0px;}
+}
+@media (max-width: 767px){
+  #contact-form-style1 .form-group-input.row {
+      margin-left: -15px;
+      margin-right: -15px;
+  }
+}
+.contact-form{box-shadow: none;padding-left: 0px;padding-right: 0px;}
+.contact-form-box {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: 0 0;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.contact-form-box fieldset{padding:0px;}
+.group-contact-form {
+    margin: 0 -15px;
+}
+.contact-social > h3 {
+    float: left;
+}
+.list-icon-social-contact {
+    float: left;
+    margin-left: 20px;
+}
+.list-contact-info h3 {
+    color: #333;
+    font-family: "Roboto",serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+}
+.list-contact-info p {
+    color: #696969;
+    line-height: 28px;
+    margin: 0 auto;
+}
+#contact-form-style1 .list-contact-info > li {
+    border-bottom: 1px solid #f8f7f7;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    position: relative;
+}
+#contact-form-style1 .list-contact-info > li:last-child {
+    border: medium none;
+    margin: -25px auto 0;
+    padding: 0;
+}
+.form-info-contact h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto",serif;
+    padding-bottom: 20px;
+}
+.form-group-input input, .form-group-area textarea{border-color: #f4f1e3;box-shadow: none;}
+#submitMessage{
+
+}
+#submitMessage span {
+    border: medium none;
+    padding: 3px 7px;
+}
+.form-group-area {
+    padding-top: 20px;
+}
+.contact-form-box .submit {
+    margin-top: 25px;
+}
+.contact-map {
+    clear: both;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    position: relative;
+    width: 100%;
+}
+/************End Contact Form Style 1**************/
+
+/************Dorado Contact Form Style 2**************/
+#columns.dorContactStyle2{width: 100%;max-width: 100%;}
+#columns.dorContactStyle2 > .row{margin:0px;}
+#contact-form-style2 .form-info-contact{float: none;margin: 0 auto;text-align: center;}
+.style2FormContact {
+    padding-top: 60px;
+}
+#contact-form-style2 .list-contact-info > li {
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+}
+#contact-form-style2 .txt-head-contact > h2, #contact-form-style2 .text-info-contact > h3 {
+    background: rgba(0, 0, 0, 0) url("../img/dorado/contact/bg-title-contact.png") no-repeat scroll center center;
+    color: #333;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    margin: 0 auto 20px;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#contact-form-style2 .txt-head-contact > h2{margin-bottom: 0px;}
+#contact-form-style2 .text-info-contact > p.txt-info {
+    color: #2688da;
+    font-family: "Roboto",serif;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 50px;
+    letter-spacing: 0.03em;
+}
+#contact-form-style2 .txt-head-contact {
+    margin-bottom: 70px;
+}
+#contact-form-style2 .txt-head-contact > span {
+    color: #2688da;
+    display: block;
+    font-family: "Roboto",serif;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    margin-top: -35px;
+    padding-bottom: 0;
+    position: relative;
+    text-align: center;
+}
+.media-contact-inner > img {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.style2InfoContact{
+  background: rgba(0, 0, 0, 0) url("../img/dorado/contact/bg-info-contact.png") no-repeat scroll center center;
+}
+/************End Contact Form Style 2**************/

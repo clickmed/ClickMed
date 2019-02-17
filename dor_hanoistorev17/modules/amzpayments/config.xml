@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>amzpayments</name>
+    <displayName><![CDATA[Amazon Pay - Login and Pay with Amazon]]></displayName>
+    <version><![CDATA[3.0.2]]></version>
+    <description><![CDATA[Easy-to-use integration of Advanced Payment APIs for your Presta Shop]]></description>
+    <author><![CDATA[patworx multimedia GmbH]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Do you really want to uninstall the module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
